@@ -16,7 +16,7 @@ export default function AuthView() {
         authClient={authClient}
         pathname={pathname}
         navigate={router.push}
-        providers={["github"]}
+        providers={["google"]}
         callbackURL={callbackURL}
         LinkComponent={Link}
         disableAnimation={true}
