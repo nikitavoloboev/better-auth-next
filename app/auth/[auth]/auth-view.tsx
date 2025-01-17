@@ -2,34 +2,13 @@
 
 import Link from "next/link"
 import { usePathname, useRouter } from "next/navigation"
-
-import { authClient } from "@/lib/auth-client"
 import { AuthCard } from "@daveyplate/better-auth-ui"
-
-// import { ToastAction } from "@/components/ui/toast"
-// import { useToast } from "@/hooks/use-toast"
+import { authClient } from "@/lib/auth-client"
 
 export default function AuthView() {
   const router = useRouter()
   const pathname = usePathname()
-  // const { toast } = useToast()
-
   const callbackURL = "/"
-
-  // const authToast = useCallback(
-  //   ({ variant, description, action }: AuthToastOptions) => {
-  //     toast({
-  //       variant,
-  //       description,
-  //       // action: action && (
-  //       //   <ToastAction altText={action.label} onClick={action.onClick}>
-  //       //     {action.label}
-  //       //   </ToastAction>
-  //       // ),
-  //     })
-  //   },
-  //   [toast]
-  // )
 
   return (
     <main className="flex flex-col items-center my-auto p-4">
