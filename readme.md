@@ -10,7 +10,7 @@ DATABASE_URL=""
 
 Where:
 
-- `BETTER_AUTH_SECRET` is [some random value](https://www.better-auth.com/docs/installation).
+- `BETTER_AUTH_SECRET` is [some random value](https://www.better-auth.com/docs/installation)
 - `DATABASE_URL` is Postgres URL
 
 ```
